@@ -1,0 +1,44 @@
+body {
+    font-size: 15pt;
+}
+div{
+  margin: 20px;
+  padding: 20px;
+  background-color: #EEE;
+  display:flex;
+  width: 300px;
+  
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+div ::firest-letter{
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+h1::first-letter{
+  font-size: 80px;
+  color: red;
+}
+
+
+
+p::first-letter {
+  font-size: 200%;
+  color: blue;
+}
+
+
+
+
+/*h1::selection{
+  background: blue;
+  color: red;
+}*/
+
+
+/*:second-letter or :third-letter*/
